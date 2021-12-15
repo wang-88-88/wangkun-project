@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 121.199.163.188:8848
+        shared-configs:
+          - db.yml
+        namespace: wk
